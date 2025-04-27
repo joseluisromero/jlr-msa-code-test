@@ -1,5 +1,7 @@
 package com.code;
 
+import static com.code.Arrays.processArrays;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,7 +10,8 @@ public class JlrMsaCodeTestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JlrMsaCodeTestApplication.class, args);
-		verifyNumericIsGuay(10);
+		//verifyNumericIsGuay(10);
+
 	}
 
 	public static void verifyNumericIsGuay(int n) {
@@ -22,4 +25,6 @@ public class JlrMsaCodeTestApplication {
 			System.out.println("El número " + n + " no es guay");
 		}
 	}
+
+
 }
