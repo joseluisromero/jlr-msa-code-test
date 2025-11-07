@@ -14,7 +14,7 @@ public class JlrMsaCodeTestApplication {
 
 	}
 
-	public static void verifyNumericIsGuay(int n) {
+	/*public static void verifyNumericIsGuay(int n) {
 		int sum = 0;
 		for (int i = 1; i < n / 2; i++) {
 			sum += i;
@@ -24,7 +24,7 @@ public class JlrMsaCodeTestApplication {
 		} else {
 			System.out.println("El número " + n + " no es guay");
 		}
-	}
+	}*/
 
 
 }
